@@ -6,3 +6,7 @@
 .site-snip {
 	width: 300px;
 }
+
+#information {
+	display: table;
+}
