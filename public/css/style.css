@@ -1,12 +1,27 @@
+.site-snip,
 .profile {
-	width: 300px;
-	border-radius: 100%;
-}
-
-.site-snip {
 	width: 300px;
 }
 
 #information {
-	display: table;
+	text-align: center;
+	position: relative;
+    left: 8%;
+}
+
+.icon-wrap,
+.projects,
+.copyright {
+	text-align: center;
+}
+
+.projects {
+	width: 295px;
+	position: inherit;
+    left: 33px;
+}
+
+.footer{
+	background-color: #222222;
+	color: white;
 }
