@@ -8,7 +8,7 @@ app.use(express.static(process.cwd() +
 	'/public'));
 
 app.get('/', function(req, res) {
-  res.send('index');
+  res.render('public/index');
 });
 
 console.log('process.env.PORT', process.env.PORT);
