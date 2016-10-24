@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scale=no">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
     <!-- devcon the font icons-->
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
     <link rel="stylesheet" type="text/css" href="public/css/style.css">
@@ -17,7 +18,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container page-container">
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -27,7 +28,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand " href="#">Travis Grieshiemer</a>
+                    <a class="navbar-brand " >Travis Grieshiemer</a>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse-main">
                     <!-- <ul class="nav navbar-nav navbar-right">
@@ -47,29 +48,33 @@
                 </div>
             </div>
         </nav>
-        <div id="home" class="home">
-            <div class="text-vcenter">
-                <br />
-                <br />
-                <h1>Full Stack Developer</h1>
-                <p><i>Creating apps that are as beautiful, as they are functional.</i></p>
-                <a href="#about"></a>
+
+        <div class="jumbotron jumbotron-fluid spcl-jmbtrn">
+            <div id="home" class="container home">
+                <div class="text-vcenter">
+                    <br />
+                    <br />
+                    <h1 class="self-heading" id="self-heading">Full Stack Developer</h1>
+                    <p class="self-heading"><i>Creating apps that are as beautiful, as they are functional.</i></p>
+                    <a href="#about"></a>
+                </div>
             </div>
-        </div>
-        <div id="about" class="pad-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-6">
-                        <img src="img/img-profile-img.jpg" alt="profile pic" class="profile img-circle m-x-auto d-block">
-                    </div>
-                    <div class="col-xs-6  text-center">
-                        <p class="lead">
-                            Constructing web applications is remarkable; as a creator, my concepts and dreams are transformed into a platform that reaches the world. With just a click of a button, my users benefit from my ideas. While they will never know the challenges I endured and welcomed to bring my app to fruition, my users will be enriched by the experience.
-                        </p>
+            <div id="about" class="pad-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <img src="img/img-profile-img.jpg" alt="profile pic" class="profile img-circle m-x-auto d-block">
+                        </div>
+                        <div class="col-xs-5 col-xs-offset-1  text-center">
+                            <p class="lead">
+                                Constructing web applications is remarkable; as a creator, my concepts and dreams are transformed into a platform that reaches the world. With just a click of a button, my users benefit from my ideas. While they will never know the challenges I endured and welcomed to bring my app to fruition, my users will be enriched by the experience.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div>    
+            
         <!-- third section - Services -->
         <div id="services" class="pad-section">
             <div class="container">
@@ -79,7 +84,7 @@
                     <div class="col-xs-4">
                         <a href="https://github.com/coffeeteer/TriviaGame-week-5"><img src="img/JavaScript-trivia.PNG" class="site-snip img-fluid img-rounded m-x-auto d-block"  alt="Responsive image"></a>
                         <h4>Javascript Trivia Game</h4>
-                        <p class="projects centered">I created this game which utilized my knowledge of front end design and use of Javascript and JQuery.</p>
+                        <p class="projects centered text-center">I created this game which utilized my knowledge of front end design and use of Javascript and JQuery.</p>
                     </div>
                     <!-- <div class="col-sm-3 col-xs-6">
                         <a href="https://github.com/lcdantechen/daytrip"><img src="#"></a>
@@ -89,19 +94,19 @@
                     <div class="col-xs-4">
                         <a href="https://www.covertheselyrics.com"><img src="img/CoverTheseLyrics.PNG" class="site-snip img-fluid img-rounded m-x-auto d-block"  alt="Responsive image"></a>
                         <h4>CoverTheseLyrics</h4>
-                        <p class="projects centered">This is the second group project with Rutgers Coding Bootcamp. This app I worked on previously and inspired me to oin the bootcamp. I acted as team leader and frontend designer we the website underwent a refreshed design and new technology that brought speed and flexibility to the site.</p>
+                        <p class="projects centered text-center">This is the second group project with Rutgers Coding Bootcamp. This app I worked on previously and inspired me to oin the bootcamp. I acted as team leader and frontend designer we the website underwent a refreshed design and new technology that brought speed and flexibility to the site.</p>
                     </div>
                     <div class="col-xs-4">
                         <a href="https://cookitup1.herokuapp.com/"><img src="img/cook-it-up.PNG" class="site-snip img-fluid img-rounded m-x-auto d-block"  alt="Responsive image"></a>
                         <h4>CookItUp</h4>
-                        <p class="projects centered">Is app is a Recipe social site, that finds recipes for the user and allows them to make them qucikly to create a meal. During this I concentrated on creating the backend server and Passport OAuth for Facebook and Twitter.</p>
+                        <p class="projects centered text-center">Is app is a Recipe social site, that finds recipes for the user and allows them to make them qucikly to create a meal. During this I concentrated on creating the backend server and Passport OAuth for Facebook and Twitter.</p>
                     </div>
                 </div>
             </div>
         </div>
         <!-- /third section -->
-        <div id="information" class="pad-section centered">
-            <div class="container icon-wrap">
+        <div id="information" class="pad-section centered text-center">
+            <div class="container icon-wrap text-center">
                 <div class="row centered">
                 
                     <div class="col-xs-2">
@@ -252,8 +257,8 @@
                         <h3> Phone: 908-227-2828</h3>
                         <h3>Email: tgrieshiemer@gmail.com</h3>
                         <h3>Linkedin: <a href="https://www.linkedin.com/in/travis-grieshiemer-36ba54126
-                        ">My linkedin</a></h3>
-                        <h3>Github: <a href="https://github.com/coffeeteer">My Github</a></h3>
+                        " target="_blank">My linkedin</a></h3>
+                        <h3>Github: <a href="https://github.com/coffeeteer" target="_blank">My Github</a></h3>
                     </div>
                 </div>
             </div>
@@ -261,7 +266,7 @@
         <footer class="footer">
             <hr />
             <div class="container centered">
-                <p class="copyright"> Copyright &copy; Travis Grieshiemer 2016</p>
+                <p class="copyright text-center">Copyright &copy; Travis Grieshiemer 2016</p>
             </div>
         </footer>
         <!-- attach JavaScripts -->

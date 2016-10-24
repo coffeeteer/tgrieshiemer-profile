@@ -1,19 +1,18 @@
+.page-container, 
+.text-center {
+	font-family: 'Josefin Slab', serif;
+}
+
 .site-snip,
 .profile {
 	width: 300px;
 }
 
 #information {
-	text-align: center;
 	position: relative;
     left: 8%;
 }
 
-.icon-wrap,
-.projects,
-.copyright {
-	text-align: center;
-}
 
 .projects {
 	width: 295px;
@@ -25,3 +24,32 @@
 	background-color: #222222;
 	color: white;
 }
+
+/* Lead paragraph text */
+p.lead {
+	font-size: 2.3rem;
+}
+
+h2.text-center {
+	font-size: 4.5rem
+}
+
+.spcl-jmbtrn{
+	width: 120%;
+    position: relative;
+    left: -10%;
+}
+ 
+div.jumbotron.jumbotron-fluid.spcl-jmbtrn{
+    background-color: #222222;
+	background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+
+#self-heading,
+.self-heading,
+p.lead {
+	color: #fff;
+}
+
+
+
