@@ -56,3 +56,7 @@ p.lead {
 	font-size: 30px;
 }
 
+div.panel-heading.icon-panel {
+	background-color: #222;
+	color: #fff;
+}
