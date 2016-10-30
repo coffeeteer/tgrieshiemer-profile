@@ -60,3 +60,7 @@ div.panel-heading.icon-panel {
 	background-color: #222;
 	color: #fff;
 }
+
+div.row.text-center {
+  margin-bottom: 25px;
+}
